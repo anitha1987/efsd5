@@ -15,7 +15,7 @@
                         <div class="links">
                             <!-- Example row of columns -->
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="thumbnail">
                                         <img src="{% static "images/customer.jpg" %}" alt="customer"/>
                                         <div class="caption">
@@ -29,7 +29,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="thumbnail">
                                         <img src="{% static "images/nonstock.jpg" %}" alt="non-stock"/>
                                         <div class="caption">
@@ -41,7 +41,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <div class="thumbnail">
                                         <img src="{% static "images/stocks.jpg" %}" alt="stocks"/>
                                         <div class="caption">
@@ -50,6 +50,17 @@
                                                 Which gives us immense pleaseure</p>
                                             <p><a class="btn btn-primary" href="{% url 'portfolio:stock_list' %}"
                                                   role="button">View
+                                                details &raquo;</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="{% static "images/mutualfund.jpg" %}" alt="stocks"/>
+                                        <div class="caption">
+                                            <h2>Mutual Fund Portfolio</h2>
+                                            <p>Our Mutual Fund portfolios vary across industries.</p>
+                                            <p><a class="btn btn-primary" href="{% url 'portfolio:mutualfund_list' %}" role="button">View
                                                 details &raquo;</a></p>
                                         </div>
                                     </div>

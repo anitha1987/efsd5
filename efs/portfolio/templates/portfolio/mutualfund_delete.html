@@ -1,9 +1,9 @@
 {% block body_block %}
-    <h1>Delete {{ investment.category }}?</h1>
+    <h1>Delete {{ mutualfund.bondtype }}?</h1>
 
     <form method="post">
         {% csrf_token %}
         <input type="submit" class="btn btn-danger" value="Delete">
-        <a href="{% url 'portfolio:home' pk=investment.customer %} ">Cancel</a>
+        <a href="{% url 'portfolio:home' pk=mutualfund.customer %} ">Cancel</a>
     </form>
 {% endblock %}
